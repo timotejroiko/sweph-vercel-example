@@ -6,5 +6,8 @@
     "@types/node": "24.1.0",
     "@vercel/node": "5.3.7",
     "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "sweph": "^2.10.3-b-1"
   }
 }
