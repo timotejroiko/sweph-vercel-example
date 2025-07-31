@@ -1,5 +1,10 @@
 {
     "routes": [
         { "src": "/", "dest": "/api/hello.ts" }
-    ]
+    ],
+    "functions": {
+        "api/hello.ts": {
+            "includeFiles": "ephe/**/*"
+        }
+    }
 }
